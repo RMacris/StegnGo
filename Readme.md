@@ -32,17 +32,17 @@ stego encode \
   --payload="some message or secret_message.txt" \
   --password="mysecretpass" \
   --output="" \
-  --filename=myFile
+  --filename="myFile"
 ```
 ---
 ## Example: Decode
 # Decode the hidden data from an image
 ```bash
 stego decode \
-  --container=encoded.png \
-  --password=mysecretpass \
+  --container="encoded.png" \
+  --password="mysecretpass" \
   --output="" \
-  --filename=myFile
+  --filename="myFile"
 ```
 
 ## Alternative Run
