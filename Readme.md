@@ -28,7 +28,7 @@ Download or build the `stegngo` tool from the repository. Once available in your
 ```bash
 # Encode a text file inside an image, with encryption enabled
 stego encode \
-  --container=cover.png \
+  --container="cover.png" \
   --payload="some message or secret_message.txt" \
   --password="mysecretpass" \
   --output="" \
