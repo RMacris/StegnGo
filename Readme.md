@@ -17,7 +17,7 @@ Download or build the `stegngo` tool from the repository. Once available in your
 
 - `--container=PATH`: Path to the container image (PNG/JPG) used to hide or reveal data.
 - `--payload=PATH`: Path to the payload file (can also be raw text or typed directly if no file is specified for encoding).
-- `--password=SECRET`: Password for AES encryption (defaults to 32-byte key derived via PBKDF2).
+- `--password=SECRET`: Password for AES encryption (defaults to 32-byte key derived via Argon2).
 - `--no-encryption`: (Optional) Disables AES encryption.
 - `--output=OUT_PATH`: Output path for the resulting stego image or extracted payload.
 - `--filename=NAME`: (Optional) Name for the extracted file when decoding.
